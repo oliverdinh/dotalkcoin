@@ -1,0 +1,9 @@
+
+how to connect rinkeby by geth in Mac
+1, geth --rinkeby -rpc
+2. geth --datadir=$HOME/.rinkeby attach ipc:$HOME/Library/Ethereum/rinkeby/geth.ipc console
+
+deploy
+1. Deploy Dotalkwhitelistcontract
+2. Configure time
+3. Deploy DotalkSaleSmartContract
